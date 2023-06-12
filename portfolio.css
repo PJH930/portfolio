@@ -1,0 +1,481 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap');
+/* 기본 설정: 페이지 전체 */
+body {
+    margin: 0;
+}
+/*-----------------------------------------------------------------*/
+/*------------------------      메뉴칸     -------------------------*/
+/*-----------------------------------------------------------------*/
+.headA {
+    width: 400px;
+    justify-content: center;
+    top: -145px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(235, 246, 255, 0.72);
+    position: fixed;
+    display: block;
+    border-radius: 15px;
+    transition-duration: 0.7s;
+    cursor : pointer;
+    font-family: 'Cinzel', serif;
+    z-index: 99;
+}
+.headA:hover {
+    transition-duration: 0.7s;
+    top: 190px;
+    display: block;
+}
+.headA > span > a {
+    font-weight: 1000;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    display: block;
+    color: #000000;
+}
+.headA > span > a:hover{
+    text-align: center;
+    color: #ffffff;
+    cursor : pointer;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px black;
+    letter-spacing: 1rem;
+    background-color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    animation: Line 0.8s infinite;
+}
+.headA a {
+    display: block;
+    padding: 15px;
+    color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.headA i{
+    animation: flash 3s infinite;
+
+}
+.conA > .container{
+    left: 100px;
+    /*display: flex;*/
+}
+
+
+
+
+/*-----------------------------------------------------------------*/
+/*------------------------      메인       -------------------------*/
+/*-----------------------------------------------------------------*/
+.conA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Resource/2-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-width: 450px;
+    color: #FFF;
+}
+.conA > .container {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    box-shadow: 10px 10px 20px black;
+    text-shadow: 3px 3px 20px rgba(59, 59, 59, 0.8);
+    background-color: rgba(206, 206, 206, 0.84);
+    animation: Line 2s infinite;
+
+}
+.conA > .container > h1 {
+    color: #20273b;
+    font-size: 10rem;
+    margin-bottom: -1px;
+    font-family: 'Cinzel', serif;
+
+}
+.conA > .container > p{
+    margin-bottom: -50px;
+    color: #20273b;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    font-family: 'Hahmlet', serif;
+}
+/*-----------------------------------------------------------------*/
+/*------------------------      소개       -------------------------*/
+/*-----------------------------------------------------------------*/
+.conB {
+    background-color: #dbe3e7;
+    border-top: 5px solid #99b5b9;
+}
+.conB > .ABOUT {
+    padding-top: 2%;
+    position: relative;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.conB > .container {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.conB > .container > .Img {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin-right: 5%;
+    display: inline-block;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Resource/1.jpg);
+}
+
+.conB > .container > .cover{
+    width: 500px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Hahmlet', serif;
+}
+
+
+/*-----------------------------------------------------------------*/
+/*------------------------      기술       -------------------------*/
+/*-----------------------------------------------------------------*/
+.conC {
+    background-color: #bcc6cb;
+}
+.conC > .SKILL {
+    padding-top: 2%;
+    position: relative;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.conC > .container{
+    padding: 15%;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conC > .container > .text > div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border: 0.3rem solid #dbe3e7;
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
+.conC > .container > .text > div:hover{
+    transition-duration: 0.5s;
+    animation: Line 2s infinite;
+    opacity: 1;
+}
+
+.conC > .container > div > h1{
+    color: #bbc4ca;
+    text-align: center;
+    font-size: 1.7rem;
+    width: 15.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #4b5e6e;
+    font-family: 'Cinzel', serif;
+}
+.conC > .container > .text > div > p {
+    font-family: 'Hahmlet', serif;
+}
+
+
+.conC > .container > div > .HTMLImg{
+    background-image: url(Resource/HTML.png);
+}
+.conC > .container > div > .JavaImg{
+    background-image: url(Resource/Java.png);
+}
+.conC > .container > div > .PythonImg{
+    background-image: url(Resource/Python.png);
+}
+.conC > .container > div > .SQLImg{
+    background-image: url(Resource/MySQL.png);
+}
+.conC > .container > div > .CSSImg{
+    background-image: url(Resource/CSS.png);
+}
+.conC > .container > div > .JavaScriptImg{
+    background-image: url(Resource/JavaScript.png);
+}
+
+
+
+/*-----------------------------------------------------------------*/
+/*------------------------      작업       -------------------------*/
+/*-----------------------------------------------------------------*/
+.conD {
+    background-color: #d9e1e6;
+}
+.conD > .PROJECTS {
+    padding-top: 2%;
+    position: relative;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.conD > .container{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.conD > .container > .Project {
+    position: relative;
+    width: 35rem;
+    display: grid;
+    font-family: 'Hahmlet', serif;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+}
+.conD > .container > div > .Img {
+    box-shadow: 3px 3px 20px black;
+    position: relative;
+    width: 40rem;
+    height: 30rem;
+    display: inline-block;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.conD > .container > .Project > div {
+    height: 35px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(32, 39, 60, 0.59);
+    transition-duration: 0.5s;
+}
+.conD > .container > .Project > div:hover {
+    background-color: #20273b;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.conD > .container > .Project > h1 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 3rem;
+}
+.conD > .container > .Project > h2 {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.conD > .container > .Project > p{
+    display: block;
+    margin-top: 0;
+}
+
+.conD > .container > .Project > .Link > a {
+    letter-spacing: 0.5rem;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    color: #d7dfe5;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*------------------------      연락       -------------------------*/
+/*-----------------------------------------------------------------*/
+.footA {
+    background-color: #20273b;
+}
+.footA > .CONTACT {
+    color: white;
+    padding-top: 2%;
+    position: relative;
+    font-size: 2rem;
+    border-bottom: 2px solid #ffffff;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.footA > .tel {
+    display: flex;
+    justify-content: center;
+    padding: 7%;
+}
+
+.footA > .tel > ul {
+    justify-content: center;
+    list-style: none;
+}
+.footA > .tel > ul > li {
+    color: white;
+    font-weight: 1000;
+    font-size: 1.7rem;
+    font-family: 'Cinzel', serif;
+}
+.footD {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #20273c;
+    padding-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+    .conA > .container > h1 {
+        font-size: 4rem;
+        padding-top: 30%;
+    }
+
+    .conA > .container > p{
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+
+    }
+    .conB > .container > .Img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .conB > .container > .cover{
+        font-size: 1rem ;
+    }
+    .conC > .container > .text > div{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .conC > .container > div > h1{
+        font-size: 1.5rem;
+        width: 7rem;
+        height: 1.7rem;
+    }
+    .conC > .container{
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .conD > .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .conD > .container > div > .Img {
+        width: 25rem;
+        height: 18rem;
+    }
+    .conD > .container > .Project > div:hover {
+        background-color: #20273b;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .conD > .container > .Project > h1 {
+        font-size: 1.5rem;
+    }
+    .conD > .container > .Project > h2 {
+        font-size: 1rem;
+    }
+    .conD > .container > .Project > p{
+        font-size: 0.8rem;
+    }
+    .conD > .container > .Project > .Link > a {
+        font-size: 1rem;
+    }
+    .footA > .tel > ul > li {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------*/
+/*------------------------      애니메이션     ----------------------*/
+/*-----------------------------------------------------------------*/
+@keyframes Line {
+    from{
+        border: 0.3rem solid rgb(153, 181, 185);
+    }
+    70%{
+        border: 0.3rem solid rgb(76, 95, 110);
+    }
+    30%{
+        border: 0.3rem solid rgb(153, 181, 185);
+    }
+    to{
+        border: 0.3rem solid rgb(188, 198, 203);
+    }
+}
+@keyframes flash {
+    from{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    to{
+        color: #000000;
+    }
+}
