@@ -80,7 +80,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    min-width: 450px;
+/*     min-width: 450px; */
     color: #FFF;
 }
 .conA > .container {
@@ -352,13 +352,9 @@ body {
 /*-----------------------------------------------------------------*/
 
 @media (max-width: 1024px){
-    .conA > .container{
-        width: 35rem;
-    }
-
     .conA > .container > h1 {
-        font-size: 4.5rem;
-        padding-top: 30%;
+        font-size: 6.5rem;
+        padding-top: 10%;
     }
 
     .conA > .container > p{
@@ -428,13 +424,9 @@ body {
 
 
 @media (max-width: 767px){
-    .conA > .container{
-        width: 30rem;
-    }
-    
     .conA > .container > h1 {
         font-size: 4rem;
-        padding-top: 30%;
+        padding-top: 25%;
     }
 
     .conA > .container > p{
