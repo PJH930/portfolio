@@ -354,7 +354,7 @@ body {
 
 
 @media (max-width: 767px){
-    .conA {
+    .conA > .container{
         width: 30rem;
     }
     
