@@ -347,6 +347,80 @@ body {
 
 
 
+/*-----------------------------------------------------------------*/
+/*------------------------      반응형    ----------------------*/
+/*-----------------------------------------------------------------*/
+
+@media (max-width: 1024px){
+    .conA > .container{
+        width: 35rem;
+    }
+
+    .conA > .container > h1 {
+        font-size: 4.5rem;
+        padding-top: 30%;
+    }
+
+    .conA > .container > p{
+        font-size: 2rem;
+        margin-bottom: 0px;
+
+    }
+    .conB > .container > .Img {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .conB > .container > .cover{
+        font-size: 1.5rem ;
+    }
+    .conC > .container > .text > div{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+    .conC > .container > div > h1{
+        font-size: 2rem;
+        width: 7.5rem;
+        height: 2rem;
+    }
+    .conC > .container{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .conD > .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .conD > .container > div > .Img {
+        width: 28rem;
+        height: 20rem;
+    }
+    .conD > .container > .Project > div:hover {
+        background-color: #20273b;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .conD > .container > .Project > h1 {
+        font-size: 2rem;
+    }
+    .conD > .container > .Project > h2 {
+        font-size: 1.5rem;
+    }
+    .conD > .container > .Project > p{
+        font-size: 1rem;
+    }
+    .conD > .container > .Project > .Link > a {
+        font-size: 1.5rem;
+    }
+    .footA > .tel > ul > li {
+        font-size: 1.5rem;
+    }
+}
+
 
 
 
@@ -422,36 +496,6 @@ body {
         font-size: 1.3rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
