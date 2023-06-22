@@ -354,6 +354,10 @@ body {
 
 
 @media (max-width: 767px){
+    .conA {
+        width: 30rem;
+    }
+    
     .conA > .container > h1 {
         font-size: 4rem;
         padding-top: 30%;
