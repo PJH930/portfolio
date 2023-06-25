@@ -13,10 +13,9 @@ https://pjh930.github.io/portfolio/
 
 </br>
 ** HTML</br>
-** CSS
+** CSS</br>
+* 사용
 </br>
-
-![PORTFOLIO](https://github.com/PJH930/portfolio/assets/117810524/d2471216-4ffd-424e-a136-e5b08cafd550)
 </br>
 * HOME</br>
 * ABOUT</br>
@@ -24,7 +23,11 @@ https://pjh930.github.io/portfolio/
 * PROJECTS</br>
 * CONTACT</br>
 * 순으로 구성
-</br></br></br></br>
+
+![PORTFOLIO](https://github.com/PJH930/portfolio/assets/117810524/d2471216-4ffd-424e-a136-e5b08cafd550)
+
+
+</br></br>
 
 
 
