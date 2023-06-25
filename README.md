@@ -1,13 +1,3 @@
-# portfolio
-https://pjh930.github.io/portfolio/
-
--HOME
--ABOUT
--SKILL
--PROJECTS
--CONTACT
-
-
 # PORTFOLIO
 </br>
 ## Introduction
