@@ -21,8 +21,8 @@ https://pjh930.github.io/portfolio/
 * ABOUT</br>
 * SKILL</br>
 * PROJECTS</br>
-* CONTACT</br>
 * EDUCATION</br>
+* CONTACT</br>
 * 순으로 구성
 
 ![PORTFOLIO](https://github.com/PJH930/portfolio/assets/117810524/d2471216-4ffd-424e-a136-e5b08cafd550)
