@@ -10,7 +10,7 @@ body {
 .headA {
     width: 400px;
     justify-content: center;
-    top: -145px;
+    top: -175px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -25,7 +25,7 @@ body {
 }
 .headA:hover {
     transition-duration: 0.7s;
-    top: 190px;
+    top: 220px;
     display: block;
 }
 .headA > span > a {
