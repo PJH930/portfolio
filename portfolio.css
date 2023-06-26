@@ -304,6 +304,51 @@ body {
 
 }
 
+
+
+/*-----------------------------------------------------------------*/
+/*------------------------      경력       -------------------------*/
+/*-----------------------------------------------------------------*/
+
+.conE {
+    background-color: #bcc6cb;
+}
+.conE > .EDUCATION {
+    padding-top: 2%;
+    position: relative;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.conE > .container{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.conE > .container > .history {
+    width: 50rem;
+    background-color: #94c4d2;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px black;
+    padding: 10px;
+    font-family: 'Hahmlet', serif;
+    text-align: center;
+}
+.conE > .container > .history > h1 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+.conE > .container > .history > p {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+
 /*-----------------------------------------------------------------*/
 /*------------------------      연락       -------------------------*/
 /*-----------------------------------------------------------------*/
