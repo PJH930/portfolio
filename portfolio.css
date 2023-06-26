@@ -322,7 +322,7 @@ body {
     font-family: 'Cinzel', serif;
 }
 .conE > .container{
-    padding: 3%;
+    padding: 1%;
     display: flex;
     justify-content: center;
     gap: 10rem;
