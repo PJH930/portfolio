@@ -340,6 +340,7 @@ body {
 }
 .conE > .container > .history:hover {
     color: #FFF;
+    background-color: #354161;
 }
 .conE > .container > .history > h1 {
     display: block;
