@@ -338,6 +338,9 @@ body {
     font-family: 'Hahmlet', serif;
     text-align: center;
 }
+.conE > .container > .history:hover {
+    color: #FFF;
+}
 .conE > .container > .history > h1 {
     display: block;
     margin-top: 0;
