@@ -438,6 +438,12 @@ body {
     .conB > .container > .cover{
         font-size: 1.5rem ;
     }
+    .conC > .container > div > h1{
+/*     text-align: center; */
+    font-size: 1rem;
+    height: 1.5rem;
+
+}
     .conC > .container > .text > div{
         width: 7.5rem;
         height: 7.5rem;
