@@ -481,6 +481,13 @@ body {
 
 
 @media (max-width: 767px){
+
+    .headA {
+            top: -190px;
+    }
+    .headA:hover {
+            top: 250px;
+    }
     .conA > .container > h1 {
         font-size: 3rem;
         padding-top: 25%;
