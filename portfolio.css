@@ -403,6 +403,12 @@ body {
 /*-----------------------------------------------------------------*/
 
 @media (max-width: 1024px){
+    .headA {
+            top: -190px;
+    }
+    .headA:hover {
+            top: 250px;
+    }
     .conA > .container > h1 {
         font-size: 6.5rem;
         padding-top: 10%;
@@ -411,7 +417,6 @@ body {
     .conA > .container > p{
         font-size: 2rem;
         margin-bottom: 0px;
-
     }
      .conB > .container {
         display: flex;
