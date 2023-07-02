@@ -172,6 +172,12 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+.conC > .container > .text {
+    text-align: center;
+
+}
+
+
 .conC > .container > .text > div{
     background-position: center;
     background-repeat: no-repeat;
@@ -190,7 +196,7 @@ body {
 
 .conC > .container > div > h1{
     color: #bbc4ca;
-    text-align: center;
+/*     text-align: center; */
     font-size: 1.7rem;
     width: 15.5rem;
     height: 2rem;
