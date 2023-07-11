@@ -24,8 +24,12 @@ https://pjh930.github.io/portfolio/
 * EDUCATION</br>
 * CONTACT</br>
 * 순으로 구성
+</br>
 
-![PORTFOLIO](https://github.com/PJH930/portfolio/assets/117810524/d2471216-4ffd-424e-a136-e5b08cafd550)
+
+https://github.com/PJH930/portfolio/assets/117810524/883d1ffd-fc56-4382-9baa-e10f7df51de3
+
+
 
 
 </br></br>
