@@ -1,52 +1,58 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap');
-/* 기본 설정: 페이지 전체 */
+
 body {
     margin: 0;
 }
+
 /*-----------------------------------------------------------------*/
 /*------------------------      메뉴칸     -------------------------*/
 /*-----------------------------------------------------------------*/
+
 .headA {
+    display: block;
+    position: fixed;
     width: 400px;
-    justify-content: center;
     top: -180px;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
     background-color: rgba(235, 246, 255, 0.72);
-    position: fixed;
-    display: block;
     border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Cinzel', serif;
     transition-duration: 0.7s;
     cursor : pointer;
-    font-family: 'Cinzel', serif;
     z-index: 99;
 }
+
 .headA:hover {
-    transition-duration: 0.7s;
-    top: 230px;
     display: block;
+    top: 230px;
+    transition-duration: 0.7s;
 }
+
 .headA > span > a {
+    display: block;
     font-weight: 1000;
     font-size: 1.8rem;
-    border-radius: 15px;
-    transition-duration: 0.5s;
-    display: block;
     color: #000000;
+    border-radius: 15px;
+    transition-duration: 0.3s;
 }
+
 .headA > span > a:hover{
-    text-align: center;
-    color: #ffffff;
-    cursor : pointer;
     border-radius: 15px;
     box-shadow: 1px 1px 5px 1px black;
-    letter-spacing: 1rem;
     background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    letter-spacing: 1rem;
+    text-align: center;
     transition-duration: 0.5s;
     animation: Line 0.8s infinite;
+    cursor : pointer;
 }
+
 .headA a {
     display: block;
     padding: 15px;
@@ -56,52 +62,43 @@ body {
 }
 
 .headA i{
-    animation: flash 3s infinite;
-
+    animation: flash 1s infinite;
 }
-.conA > .container{
-    left: 100px;
-    /*display: flex;*/
-}
-
-
-
 
 /*-----------------------------------------------------------------*/
 /*------------------------      메인       -------------------------*/
 /*-----------------------------------------------------------------*/
+
 .conA {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Resource/2-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-/*     min-width: 450px; */
-    color: #FFF;
+    color: #ffffff;
+    align-items: center;
 }
+
 .conA > .container {
+    display: inline-block;
     width: 100%;
     height: 600px;
-    text-align: center;
-    justify-content: center;
-    display: inline-block;
     box-shadow: 10px 10px 20px black;
     text-shadow: 3px 3px 20px rgba(59, 59, 59, 0.8);
     background-color: rgba(206, 206, 206, 0.84);
+    text-align: center;
+    justify-content: center;
     animation: Line 2s infinite;
-
 }
+
 .conA > .container > h1 {
+    margin-bottom: -1px;
     color: #20273b;
     font-size: 10rem;
-    margin-bottom: -1px;
     font-family: 'Cinzel', serif;
-
 }
+
 .conA > .container > p{
     margin-bottom: -50px;
     color: #20273b;
@@ -109,34 +106,34 @@ body {
     font-weight: 1000;
     font-family: 'Hahmlet', serif;
 }
+
 /*-----------------------------------------------------------------*/
 /*------------------------      소개       -------------------------*/
 /*-----------------------------------------------------------------*/
+
 .conB {
     background-color: #dbe3e7;
     border-top: 5px solid #99b5b9;
 }
+
 .conB > .ABOUT {
     padding-top: 2%;
-    position: relative;
-    font-size: 2rem;
     border-bottom: 2px solid black;
+    font-size: 2rem;
     text-align: center;
     font-family: 'Cinzel', serif;
 }
 
 .conB > .container {
-    padding: 10%;
     display: flex;
-    justify-content: center;
+    padding: 10%;
 }
 
 .conB > .container > .Img {
-    position: relative;
+    display: inline-block;
     width: 50rem;
     height: 75rem;
     margin-right: 5%;
-    display: inline-block;
     border-radius: 5px;
     background-position: center;
     background-size: cover;
@@ -144,50 +141,51 @@ body {
 }
 
 .conB > .container > .cover{
-    width: 500px;
     display: inline-block;
+    width: 500px;
     font-size: 25px;
     font-family: 'Hahmlet', serif;
 }
 
-
 /*-----------------------------------------------------------------*/
 /*------------------------      기술       -------------------------*/
 /*-----------------------------------------------------------------*/
+
 .conC {
     background-color: #bcc6cb;
 }
+
 .conC > .SKILL {
     padding-top: 2%;
-    position: relative;
-    font-size: 2rem;
     border-bottom: 2px solid black;
     text-align: center;
+    font-size: 2rem;
     font-family: 'Cinzel', serif;
 }
+
 .conC > .container{
+    display: flex;
     padding: 15%;
     justify-content: center;
     gap: 1rem;
-    display: flex;
     flex-wrap: wrap;
 }
+
 .conC > .container > .text {
     text-align: center;
-
 }
 
-
 .conC > .container > .text > div{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 15rem;
     height: 15rem;
     border: 0.3rem solid #dbe3e7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transition-duration: 0.3s;
     opacity: 0.5;
 }
+
 .conC > .container > .text > div:hover{
     transition-duration: 0.5s;
     animation: Line 2s infinite;
@@ -195,89 +193,95 @@ body {
 }
 
 .conC > .container > div > h1{
-    color: #bbc4ca;
-/*     text-align: center; */
-    font-size: 1.7rem;
     width: 15.5rem;
     height: 2rem;
     border-radius: 5px;
     background-color: #4b5e6e;
+    color: #bbc4ca;
+    font-size: 1.7rem;
     font-family: 'Cinzel', serif;
 }
+
 .conC > .container > .text > div > p {
     font-family: 'Hahmlet', serif;
 }
 
-
 .conC > .container > div > .HTMLImg{
     background-image: url(Resource/HTML.png);
 }
+
 .conC > .container > div > .JavaImg{
     background-image: url(Resource/Java.png);
 }
+
 .conC > .container > div > .PythonImg{
     background-image: url(Resource/Python.png);
 }
+
 .conC > .container > div > .SQLImg{
     background-image: url(Resource/MySQL.png);
 }
+
 .conC > .container > div > .CSSImg{
     background-image: url(Resource/CSS.png);
 }
+
 .conC > .container > div > .JavaScriptImg{
     background-image: url(Resource/JavaScript.png);
 }
 
-
-
 /*-----------------------------------------------------------------*/
 /*------------------------      작업       -------------------------*/
 /*-----------------------------------------------------------------*/
+
 .conD {
     background-color: #d9e1e6;
 }
+
 .conD > .PROJECTS {
     padding-top: 2%;
-    position: relative;
-    font-size: 2rem;
     border-bottom: 2px solid black;
     text-align: center;
+    font-size: 2rem;
     font-family: 'Cinzel', serif;
 }
 
 .conD > .container{
-    padding: 10%;
     display: flex;
+    padding: 10%;
     justify-content: center;
     gap: 10rem;
 }
+
 .conD > .container > .Project {
-    position: relative;
-    width: 35rem;
     display: grid;
-    font-family: 'Hahmlet', serif;
+    width: 35rem;
     grid-template-columns: repeat(1, 1fr);
+    font-family: 'Hahmlet', serif;
     overflow: hidden;
 }
+
 .conD > .container > div > .Img {
-    box-shadow: 3px 3px 20px black;
+    display: inline-block;
     position: relative;
     width: 40rem;
     height: 40rem;
-    display: inline-block;
     border-radius: 5px;
+    box-shadow: 3px 3px 20px black;
     background-position: center;
     background-size: cover;
 }
+
 .conD > .container > .Project > div {
-    height: 35px;
     padding-top: 10px;
+    height: 35px;
     text-align: center;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     background-color: rgba(32, 39, 60, 0.59);
     transition-duration: 0.5s;
 }
+
 .conD > .container > .Project > div:hover {
     background-color: #20273b;
     transition-duration: 0.5s;
@@ -290,11 +294,13 @@ body {
     margin-bottom: 5px;
     font-size: 1.4rem;
 }
+
 .conD > .container > .Project > h2 {
     display: inline-block;
     margin-bottom: 5px;
     margin-top: 0;
 }
+
 .conD > .container > .Project > p{
     display: block;
     margin-top: 0;
@@ -307,10 +313,7 @@ body {
     color: #d7dfe5;
     font-family: 'Cinzel', serif;
     text-decoration: none;
-
 }
-
-
 
 /*-----------------------------------------------------------------*/
 /*------------------------      학업      -------------------------*/
@@ -319,90 +322,92 @@ body {
 .conE {
     background-color: #bcc6cb;
 }
+
 .conE > .EDUCATION {
     padding-top: 2%;
-    position: relative;
-    font-size: 2rem;
     border-bottom: 2px solid black;
+    font-size: 2rem;
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 .conE > .container{
-    padding: 2%;
     display: flex;
+    padding: 2%;
     justify-content: center;
     gap: 10rem;
 }
+
 .conE > .container > .history {
     width: 50rem;
-    background-color: #94c4d2;
+    padding: 10px;
     border-radius: 10px;
     color: #c5c5c5;
     background-color: #20273b;
     box-shadow: 3px 3px 20px black;
-    padding: 10px;
-    font-family: 'Hahmlet', serif;
     text-align: center;
+    font-family: 'Hahmlet', serif;
 }
+
 .conE > .container > .history:hover {
     color: #FFF;
     background-color: #354161;
 }
+
 .conE > .container > .history > h1 {
     display: block;
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 1.4rem;
 }
+
 .conE > .container > .history > p {
     display: inline-block;
     margin-bottom: 5px;
     margin-top: 0;
 }
 
-
 /*-----------------------------------------------------------------*/
 /*------------------------      연락       -------------------------*/
 /*-----------------------------------------------------------------*/
+
 .footA {
     background-color: #20273b;
 }
+
 .footA > .CONTACT {
-    color: white;
     padding-top: 2%;
-    position: relative;
-    font-size: 2rem;
     border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 2rem;
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 .footA > .tel {
     display: flex;
-    justify-content: center;
     padding: 7%;
+    justify-content: center;
 }
 
 .footA > .tel > ul {
-    justify-content: center;
     list-style: none;
 }
+
 .footA > .tel > ul > li {
-    color: white;
+    color: #ffffff;
     font-weight: 1000;
     font-size: 1.7rem;
     font-family: 'Cinzel', serif;
 }
+
 .footD {
-    color: white;
+    padding-bottom: 3%;
+    color: #ffffff;
+    background-color: #20273c;
     font-size: 0.8rem;
     text-align: center;
-    background-color: #20273c;
-    padding-bottom: 3%;
 }
-
-
-
-
 
 /*-----------------------------------------------------------------*/
 /*------------------------      반응형    ----------------------*/
@@ -410,26 +415,30 @@ body {
 
 @media (max-width: 1024px){
     .headA {
-            top: -200px;
+        top: -200px;
     }
+
     .headA:hover {
-            top: 250px;
+        top: 250px;
     }
+
     .conA > .container > h1 {
-        font-size: 6.5rem;
         padding-top: 10%;
+        font-size: 6.5rem;
     }
     
     .conA > .container > p{
-        font-size: 2rem;
         margin-bottom: 0px;
+        font-size: 2rem;
     }
-     .conB > .container {
+
+    .conB > .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 1.5rem;
     }
+
     .conB > .container > .Img {
         width: 35rem;
         height: 35rem;
@@ -438,90 +447,94 @@ body {
     .conB > .container > .cover{
         font-size: 1.5rem ;
     }
-    .conC > .container > div > h1{
-/*     text-align: center; */
-    font-size: 1rem;
-    height: 1.5rem;
 
-}
+    .conC > .container > .text > h1{
+        height: 1.5rem;
+        font-size: 1.3rem;
+    }
+
     .conC > .container > .text > div{
         width: 7.5rem;
         height: 7.5rem;
     }
 
     .conC > .container > div > h1{
-        font-size: 2rem;
         width: 7.5rem;
         height: 2rem;
+        font-size: 2rem;
     }
+
     .conC > .container{
         display: grid;
         gap: 1rem;
         grid-template-columns: repeat(4, 1fr);
     }
+
     .conD > .container{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 1.5rem;
     }
+
     .conD > .container > div > .Img {
         width: 28rem;
         height: 20rem;
     }
+
     .conD > .container > .Project > div:hover {
         background-color: #20273b;
         transition-duration: 0.5s;
         cursor: pointer;
     }
+
     .conD > .container > .Project > h1 {
         font-size: 2rem;
     }
+
     .conD > .container > .Project > h2 {
         font-size: 1.5rem;
     }
+
     .conD > .container > .Project > p{
         font-size: 1rem;
     }
+
     .conD > .container > .Project > .Link > a {
         font-size: 1.5rem;
     }
+
     .footA > .tel > ul > li {
         font-size: 1.5rem;
     }
 }
 
-
-
-
-
-
-
 @media (max-width: 767px){
-
     .headA {
-            top: -200px;
+        top: -180px;
     }
+
     .headA:hover {
-            top: 250px;
+        top: 240px;
     }
+
     .conA > .container > h1 {
-        font-size: 3rem;
         padding-top: 25%;
+        font-size: 3rem;
     }
 
     .conA > .container > p{
-        font-size: 1.5rem;
         margin-bottom: 0px;
-
+        font-size: 1.5rem;
     }
 
-     .conB > .container {
+    .conB > .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
     }
+
     .conB > .container > .Img {
         width: 30rem;
         height: 30rem;
@@ -530,60 +543,67 @@ body {
     .conB > .container > .cover{
         font-size: 1rem ;
     }
-        .conC > .container > div > h1{
-/*     text-align: center; */
-    font-size: 1rem;
-    height: 1.5rem;
 
-}
+    .conC > .container > .text > h1{
+        height: 1.5rem;
+        font-size: 1.2rem;
+    }
+
     .conC > .container > .text > div{
         width: 7rem;
         height: 7rem;
     }
 
     .conC > .container > div > h1{
-        font-size: 1.5rem;
         width: 7rem;
         height: 1.7rem;
+        font-size: 1.5rem;
     }
+
     .conC > .container{
         display: grid;
         gap: 0.5rem;
         grid-template-columns: repeat(3, 1fr);
     }
+
     .conD > .container{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
     }
+
     .conD > .container > div > .Img {
         width: 25rem;
         height: 18rem;
     }
+
     .conD > .container > .Project > div:hover {
         background-color: #20273b;
         transition-duration: 0.5s;
         cursor: pointer;
     }
+
     .conD > .container > .Project > h1 {
         font-size: 1.5rem;
     }
+
     .conD > .container > .Project > h2 {
         font-size: 1rem;
     }
+
     .conD > .container > .Project > p{
         font-size: 0.8rem;
     }
+
     .conD > .container > .Project > .Link > a {
         font-size: 1rem;
     }
+
     .footA > .tel > ul > li {
         font-size: 1.3rem;
     }
 }
-
-
 
 /*-----------------------------------------------------------------*/
 /*------------------------      애니메이션     ----------------------*/
@@ -602,12 +622,13 @@ body {
         border: 0.3rem solid rgb(188, 198, 203);
     }
 }
+
 @keyframes flash {
     from{
         color: black;
     }
     50%{
-        color: white;
+        color: #ffffff;
     }
     to{
         color: #000000;
