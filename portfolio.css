@@ -234,6 +234,9 @@ body {
     background-image: url(Resource/JSP.png);
 }
 
+.conC > .container > div > .vuejsImg{
+    background-image: url(Resource/vuejs.png);
+}
 
 
 /*-----------------------------------------------------------------*/
