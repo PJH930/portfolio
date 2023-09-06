@@ -424,7 +424,7 @@ body {
 
 @media (max-width: 1024px){
     .headA {
-        top: -190px;
+        top: -210px;
     }
 
     .headA:hover {
@@ -520,7 +520,7 @@ body {
 
 @media (max-width: 767px){
     .headA {
-        top: -170px;
+        top: -190px;
     }
 
     .headA:hover {
