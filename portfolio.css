@@ -428,11 +428,11 @@ body {
 
 @media (max-width: 1024px){
     .headA {
-        top: -210px;
+        top: -180px;
     }
 
     .headA:hover {
-        top: 250px;
+        top: 240px;
     }
 
     .conA > .container > h1 {
@@ -524,11 +524,11 @@ body {
 
 @media (max-width: 767px){
     .headA {
-        top: -190px;
+        top: -170px;
     }
 
     .headA:hover {
-        top: 240px;
+        top: 230px;
     }
 
     .conA > .container > h1 {
