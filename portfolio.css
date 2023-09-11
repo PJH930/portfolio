@@ -434,6 +434,9 @@ body {
     .headA:hover {
         top: 250px;
     }
+    .conA > .container {
+        height: 500px;
+    }
 
     .conA > .container > h1 {
         padding-top: 10%;
@@ -446,6 +449,7 @@ body {
     }
 
     .conB > .container {
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -471,7 +475,7 @@ body {
         height: 7.5rem;
     }
 
-    .conC > .container > div > h1{
+    .conC > .container > .text > h1{
         width: 7.5rem;
         height: 2rem;
         font-size: 2rem;
@@ -530,6 +534,9 @@ body {
     .headA:hover {
         top: 250px;
     }
+    .conA > .container {
+        height: 500px;
+    }
 
     .conA > .container > h1 {
         padding-top: 25%;
@@ -558,6 +565,7 @@ body {
     }
 
     .conC > .container > .text > h1{
+        width: 7.5rem;
         height: 1.5rem;
         font-size: 1.2rem;
     }
