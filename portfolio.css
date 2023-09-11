@@ -465,10 +465,6 @@ body {
         font-size: 1.5rem ;
     }
 
-    .conC > .container > .text > h1{
-        height: 1.5rem;
-        font-size: 1.3rem;
-    }
 
     .conC > .container > .text > div{
         width: 7.5rem;
@@ -476,9 +472,9 @@ body {
     }
 
     .conC > .container > .text > h1{
-        width: 7.5rem;
+        width: 8rem;
         height: 2rem;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .conC > .container{
@@ -573,12 +569,6 @@ body {
     .conC > .container > .text > div{
         width: 7rem;
         height: 7rem;
-    }
-
-    .conC > .container > div > h1{
-        width: 7rem;
-        height: 1.7rem;
-        font-size: 1.5rem;
     }
 
     .conC > .container{
